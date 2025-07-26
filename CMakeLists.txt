@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.18.4)
-project(llvm-shenanigans VERSION 0.2.2)
 
 # set(CMAKE_C_COMPILER clang)
 # set(CMAKE_CXX_COMPILER clang++)
+
+project(llvm-shenanigans VERSION 0.2.2)
 
 find_package(LLVM 20.1 REQUIRED CONFIG
   HINTS
